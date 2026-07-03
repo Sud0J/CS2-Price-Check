@@ -1,0 +1,538 @@
+[
+  {
+    "item_name": "AK-47 | Redline",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "AK-47 | Redline",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "AK-47 | Redline",
+    "category": "gun",
+    "wear": "Minimal Wear",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "AK-47 | Redline",
+    "category": "gun",
+    "wear": "Minimal Wear",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "AWP | Asiimov",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "AWP | Asiimov",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "M4A4 | Howl",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "M4A4 | Howl",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "USP-S | Kill Confirmed",
+    "category": "gun",
+    "wear": "Minimal Wear",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "USP-S | Kill Confirmed",
+    "category": "gun",
+    "wear": "Minimal Wear",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "Desert Eagle | Blaze",
+    "category": "gun",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "Desert Eagle | Blaze",
+    "category": "gun",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "Glock-18 | Fade",
+    "category": "gun",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "Glock-18 | Fade",
+    "category": "gun",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "AWP | Dragon Lore",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "AWP | Dragon Lore",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "AWP | Dragon Lore",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": false,
+    "souvenir": true,
+    "phase": null
+  },
+  {
+    "item_name": "AK-47 | Asiimov",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "AK-47 | Asiimov",
+    "category": "gun",
+    "wear": "Field-Tested",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": null
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 1"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 1"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 2"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 2"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 3"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 3"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 4"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 4"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Ruby"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Ruby"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Sapphire"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Sapphire"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Black Pearl"
+  },
+  {
+    "item_name": "★ Karambit | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Black Pearl"
+  },
+  {
+    "item_name": "★ Karambit | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 1"
+  },
+  {
+    "item_name": "★ Karambit | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 1"
+  },
+  {
+    "item_name": "★ Karambit | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 2"
+  },
+  {
+    "item_name": "★ Karambit | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 2"
+  },
+  {
+    "item_name": "★ Karambit | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 3"
+  },
+  {
+    "item_name": "★ Karambit | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 3"
+  },
+  {
+    "item_name": "★ Karambit | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 4"
+  },
+  {
+    "item_name": "★ Karambit | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 4"
+  },
+  {
+    "item_name": "★ Karambit | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Emerald"
+  },
+  {
+    "item_name": "★ Karambit | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Emerald"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 1"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 1"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 2"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 2"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 3"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 3"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 4"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 4"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Ruby"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Ruby"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Sapphire"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Sapphire"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Black Pearl"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Black Pearl"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 1"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 1"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 2"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 2"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 3"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 3"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Phase 4"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Phase 4"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": false,
+    "souvenir": false,
+    "phase": "Emerald"
+  },
+  {
+    "item_name": "★ M9 Bayonet | Gamma Doppler",
+    "category": "knife",
+    "wear": "Factory New",
+    "stattrak": true,
+    "souvenir": false,
+    "phase": "Emerald"
+  }
+]

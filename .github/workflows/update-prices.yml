@@ -1,0 +1,76 @@
+name: Update prices
+
+# Runs on a cron every 45 minutes, plus manual trigger. Each fetcher runs
+# independently (continue-on-error) so one dead marketplace never blocks the
+# others. The merge + rates steps always run, then updated JSON is committed,
+# which triggers Cloudflare Pages / Vercel auto-deploy.
+on:
+  schedule:
+    - cron: "*/45 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      # --- Fetchers: isolated, never fail the job ---
+      - name: Fetch CSFloat
+        continue-on-error: true
+        working-directory: scripts
+        env:
+          CSFLOAT_API_KEY: ${{ secrets.CSFLOAT_API_KEY }}
+        run: python fetchers/csfloat.py
+
+      - name: Fetch Buff163
+        continue-on-error: true
+        working-directory: scripts
+        env:
+          BUFF_COOKIE: ${{ secrets.BUFF_COOKIE }}
+        run: python fetchers/buff163.py
+
+      - name: Fetch Youpin898
+        continue-on-error: true
+        working-directory: scripts
+        run: python fetchers/youpin898.py
+
+      - name: Fetch C5Game (experimental)
+        continue-on-error: true
+        working-directory: scripts
+        run: python fetchers/c5game.py
+
+      # --- Always produce merged data + rates ---
+      - name: Merge sources
+        working-directory: scripts
+        run: python merge.py
+
+      - name: Fetch currency rates
+        working-directory: scripts
+        run: python fetch_rates.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add public/data/prices.json public/data/rates.json
+          if git diff --staged --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore: update prices [skip ci]"
+            git push
+          fi
