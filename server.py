@@ -38,10 +38,20 @@ sys.path.insert(0, str(SCRIPTS))
 MOCK = "--mock" in sys.argv
 
 
+_secrets_mtime = None
+
+
 def load_secrets() -> None:
+    """(Re)load scripts/.secrets.env whenever it changes — no restart needed
+    after pasting a new Buff cookie or Youpin token."""
+    global _secrets_mtime
     f = SCRIPTS / ".secrets.env"
     if not f.exists():
         return
+    mtime = f.stat().st_mtime
+    if mtime == _secrets_mtime:
+        return
+    _secrets_mtime = mtime
     for line in f.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if line and not line.startswith("#") and "=" in line:
@@ -246,6 +256,7 @@ class Handler(SimpleHTTPRequestHandler):
 
     def _api(self, parsed):
         qs = parse_qs(parsed.query)
+        load_secrets()  # pick up an edited .secrets.env without restarting
         try:
             if parsed.path == "/api/search":
                 q = (qs.get("q") or [""])[0]
@@ -260,6 +271,11 @@ class Handler(SimpleHTTPRequestHandler):
                     return self._json({"error": "missing goods_id or name"}, 400)
                 data = mock_price(gid, name) if MOCK else _live_price(gid, name)
                 return self._json(data)
+            if parsed.path == "/api/buff_selftest":
+                if MOCK:
+                    return self._json({"note": "server is in --mock mode"})
+                import buff_client
+                return self._json(buff_client.selftest())
             if parsed.path == "/api/buff_selftest":
                 if MOCK:
                     return self._json({"note": "server is in --mock mode"})
