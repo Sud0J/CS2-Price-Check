@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T05:13:41Z",
+  "generated_at": "2026-07-08T07:46:00Z",
   "base": "USD",
   "rates": {
     "USD": 1.0,
@@ -8,5 +8,5 @@
     "CNY": 6.7935,
     "VND": 25400.0
   },
-  "usdt_vnd": 26422.0
+  "usdt_vnd": 26416.0
 }
